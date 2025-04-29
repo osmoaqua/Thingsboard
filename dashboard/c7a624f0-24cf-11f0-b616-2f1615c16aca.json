@@ -2197,14 +2197,14 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "a8276bd0-b976-11ef-b063-1d2976468cd0",
+              "deviceId" : "7fd21860-24d3-11f0-b616-2f1615c16aca",
               "dataKeys" : [ {
-                "name" : "temperature",
+                "name" : "ph",
                 "type" : "timeseries",
-                "label" : "temperature",
+                "label" : "ph",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.14365465880156458
+                "_hash" : 0.1272737281822116
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -2335,7 +2335,8 @@
             "actions" : { },
             "borderRadius" : null,
             "units" : "pH",
-            "decimals" : 2
+            "decimals" : 2,
+            "enableDataExport" : true
           },
           "row" : 0,
           "col" : 0,
