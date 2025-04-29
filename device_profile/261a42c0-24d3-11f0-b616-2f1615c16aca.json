@@ -2,7 +2,10 @@
   "entityType" : "DEVICE_PROFILE",
   "entity" : {
     "default" : false,
-    "defaultDashboardId" : null,
+    "defaultDashboardId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "e7be1890-2503-11f0-b616-2f1615c16aca"
+    },
     "defaultEdgeRuleChainId" : {
       "entityType" : "RULE_CHAIN",
       "id" : "2d92c5c0-24cb-11f0-b616-2f1615c16aca"
