@@ -479,7 +479,7 @@
               "initialValue" : true,
               "performCheckStatus" : false,
               "retrieveValueMethod" : "attribute",
-              "checkStatusMethod" : "checkStatus",
+              "checkStatusMethod" : "",
               "valueAttribute" : "active",
               "parseValueFunction" : "return data ? true : false;",
               "requestTimeout" : 500,
@@ -501,7 +501,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "adaa33d0-f099-11ef-b0ed-4b63cf206672"
+              "deviceId" : "0c4b8d30-24d4-11f0-b616-2f1615c16aca"
             },
             "enableDataExport" : true,
             "widgetCss" : "",
@@ -1121,7 +1121,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "d63db370-f2f2-11ef-a06f-b19fa609076f",
+              "deviceId" : "0c4b8d30-24d4-11f0-b616-2f1615c16aca",
               "dataKeys" : [ {
                 "name" : "cloro",
                 "type" : "timeseries",
@@ -1286,21 +1286,14 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "c80165e0-f1ee-11ef-a06f-b19fa609076f",
+              "deviceId" : "7fd21860-24d3-11f0-b616-2f1615c16aca",
               "dataKeys" : [ {
                 "name" : "PH",
                 "type" : "timeseries",
                 "label" : "PH",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.2627348353293065,
-                "aggregationType" : "NONE",
-                "units" : "pH",
-                "decimals" : 2,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null,
-                "comparisonEnabled" : null
+                "_hash" : 0.48998690034223746
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1495,7 +1488,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b42288a0-f104-11ef-a06f-b19fa609076f",
+              "deviceId" : "491672c0-24d4-11f0-b616-2f1615c16aca",
               "dataKeys" : [ {
                 "name" : "turbidez",
                 "type" : "timeseries",
@@ -1655,7 +1648,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "c6917780-f104-11ef-a06f-b19fa609076f",
+              "deviceId" : "2e03e800-24d4-11f0-b616-2f1615c16aca",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
