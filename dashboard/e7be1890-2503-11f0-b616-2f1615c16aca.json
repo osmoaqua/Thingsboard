@@ -3782,10 +3782,10 @@
                       "col" : 8
                     },
                     "2bc1b668-f1f9-363c-d94c-575df653ba34" : {
-                      "sizeX" : 6,
-                      "sizeY" : 4,
+                      "sizeX" : 4,
+                      "sizeY" : 1,
                       "row" : 12,
-                      "col" : 26
+                      "col" : 28
                     },
                     "6fcf0657-e10b-2ab8-1662-e1e91b662442" : {
                       "sizeX" : 8,
@@ -3844,10 +3844,10 @@
                       "col" : 24
                     },
                     "698d98fd-b7aa-0d9c-959b-ded6a11296ce" : {
-                      "sizeX" : 4,
-                      "sizeY" : 4,
+                      "sizeX" : 3,
+                      "sizeY" : 2,
                       "row" : 12,
-                      "col" : 22
+                      "col" : 25
                     }
                   }
                 }
