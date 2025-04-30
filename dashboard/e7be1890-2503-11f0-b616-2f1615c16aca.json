@@ -3499,7 +3499,7 @@
             "padding" : "0px",
             "settings" : {
               "layout" : "wifi",
-              "showDate" : false,
+              "showDate" : true,
               "dateFormat" : {
                 "format" : null,
                 "lastUpdateAgo" : true,
