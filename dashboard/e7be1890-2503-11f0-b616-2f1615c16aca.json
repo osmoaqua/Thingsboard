@@ -3079,6 +3079,7 @@
               },
               "legendValueColor" : "rgba(0, 0, 0, 0.87)",
               "legendConfig" : {
+                "direction" : "column",
                 "position" : "top",
                 "sortDataKeys" : false,
                 "showMin" : false,
@@ -3140,13 +3141,13 @@
               },
               "background" : {
                 "type" : "color",
-                "color" : "#FFFFFF00",
+                "imageUrl" : null,
+                "color" : "#FFFFFF",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(252, 250, 250, 0.01)",
                   "blur" : 3
-                },
-                "imageUrl" : null
+                }
               },
               "padding" : "12px"
             },
