@@ -327,7 +327,7 @@
         "fetchTo" : "METADATA",
         "clientAttributeNames" : [ ],
         "sharedAttributeNames" : [ "send" ],
-        "serverAttributeNames" : [ ],
+        "serverAttributeNames" : [ "active" ],
         "latestTsKeyNames" : [ ],
         "getLatestValueWithTs" : false
       },
