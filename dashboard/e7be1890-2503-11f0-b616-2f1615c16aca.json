@@ -3495,7 +3495,7 @@
               }
             },
             "showTitle" : true,
-            "backgroundColor" : "rgba(0, 0, 0, 0)",
+            "backgroundColor" : "rgb(255, 249, 249)",
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "0px",
             "settings" : {
@@ -3504,7 +3504,8 @@
               "dateFormat" : {
                 "format" : null,
                 "lastUpdateAgo" : true,
-                "custom" : false
+                "custom" : false,
+                "auto" : false
               },
               "dateFont" : {
                 "family" : "Roboto",
@@ -3516,27 +3517,9 @@
               },
               "dateColor" : "rgba(0, 0, 0, 0.38)",
               "activeBarsColor" : {
-                "type" : "range",
                 "color" : "rgba(92, 223, 144, 1)",
-                "gradient" : {
-                  "advancedMode" : false,
-                  "gradient" : [ "rgba(0, 255, 0, 1)", "rgba(255, 0, 0, 1)" ],
-                  "gradientAdvanced" : [ {
-                    "source" : {
-                      "type" : "constant"
-                    },
-                    "color" : "rgba(0, 255, 0, 1)"
-                  }, {
-                    "source" : {
-                      "type" : "constant"
-                    },
-                    "color" : "rgba(255, 0, 0, 1)"
-                  } ],
-                  "minValue" : 0,
-                  "maxValue" : 100
-                },
+                "type" : "range",
                 "rangeList" : {
-                  "advancedMode" : false,
                   "range" : [ {
                     "from" : null,
                     "to" : -85,
@@ -3554,12 +3537,29 @@
                     "to" : null,
                     "color" : "rgb(76, 175, 80)"
                   } ],
+                  "advancedMode" : false,
                   "rangeAdvanced" : [ ]
                 },
-                "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';"
+                "colorFunction" : "var temperature = value;\nif (typeof temperature !== undefined) {\n  var percent = (temperature + 60)/120 * 100;\n  return tinycolor.mix('blue', 'red', percent).toHexString();\n}\nreturn 'blue';",
+                "gradient" : {
+                  "advancedMode" : false,
+                  "gradient" : [ "rgba(0, 255, 0, 1)", "rgba(255, 0, 0, 1)" ],
+                  "gradientAdvanced" : [ {
+                    "source" : {
+                      "type" : "constant"
+                    },
+                    "color" : "rgba(0, 255, 0, 1)"
+                  }, {
+                    "source" : {
+                      "type" : "constant"
+                    },
+                    "color" : "rgba(255, 0, 0, 1)"
+                  } ],
+                  "minValue" : 0,
+                  "maxValue" : 100
+                }
               },
               "inactiveBarsColor" : "rgba(224, 224, 224, 1)",
-              "noSignalRssiValue" : -100,
               "showTooltip" : true,
               "showTooltipValue" : true,
               "tooltipValueFont" : {
@@ -3575,7 +3575,8 @@
               "tooltipDateFormat" : {
                 "format" : null,
                 "lastUpdateAgo" : true,
-                "custom" : false
+                "custom" : false,
+                "auto" : false
               },
               "tooltipDateFont" : {
                 "family" : "Roboto",
@@ -3586,22 +3587,24 @@
                 "lineHeight" : "16px"
               },
               "tooltipDateColor" : "rgba(0,0,0,0.76)",
-              "tooltipBackgroundColor" : "rgba(255,255,255,0.72)",
+              "tooltipBackgroundColor" : "rgba(255, 255, 255, 0)",
               "tooltipBackgroundBlur" : 3,
               "background" : {
                 "type" : "color",
-                "color" : "#fff",
+                "imageUrl" : null,
+                "color" : "#FFFFFF00",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
                   "blur" : 3
                 }
               },
-              "padding" : "12px"
+              "padding" : "12px",
+              "noSignalRssiValue" : -100
             },
             "title" : "Señal wifi",
             "dropShadow" : true,
-            "enableFullscreen" : false,
+            "enableFullscreen" : true,
             "titleStyle" : {
               "fontSize" : "16px",
               "fontWeight" : 400
@@ -3612,7 +3615,7 @@
             "showLegend" : false,
             "widgetStyle" : { },
             "actions" : { },
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "displayTimewindow" : true,
             "margin" : "0px",
             "borderRadius" : "0px",
@@ -3648,7 +3651,7 @@
               "color" : null
             },
             "titleColor" : "rgba(0, 0, 0, 0.87)",
-            "enableDataExport" : false
+            "enableDataExport" : true
           },
           "row" : 0,
           "col" : 0,
