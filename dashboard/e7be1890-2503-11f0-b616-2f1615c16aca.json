@@ -1126,13 +1126,7 @@
                 "label" : "cloro",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.08265828566206257,
-                "aggregationType" : "NONE",
-                "units" : "mg/L",
-                "decimals" : 2,
-                "funcBody" : null,
-                "usePostProcessing" : null,
-                "postFuncBody" : null
+                "_hash" : 0.735821032289382
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1653,14 +1647,7 @@
                 "label" : "temperatura",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.9853196536331184,
-                "aggregationType" : "NONE",
-                "units" : "°C",
-                "decimals" : 2,
-                "funcBody" : null,
-                "usePostProcessing" : false,
-                "postFuncBody" : null,
-                "comparisonEnabled" : null
+                "_hash" : 0.5453638204764897
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
