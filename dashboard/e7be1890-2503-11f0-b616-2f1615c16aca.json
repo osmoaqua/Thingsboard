@@ -4069,10 +4069,10 @@
                       "col" : 24
                     },
                     "698d98fd-b7aa-0d9c-959b-ded6a11296ce" : {
-                      "sizeX" : 2,
-                      "sizeY" : 2,
-                      "row" : 14,
-                      "col" : 0
+                      "sizeX" : 4,
+                      "sizeY" : 4,
+                      "row" : 12,
+                      "col" : 22
                     }
                   }
                 }
