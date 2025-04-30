@@ -886,7 +886,7 @@
             "titleIcon" : "thermostat",
             "iconColor" : "#1F6BDD",
             "useDashboardTimewindow" : false,
-            "displayTimewindow" : false,
+            "displayTimewindow" : true,
             "titleFont" : {
               "size" : 16,
               "sizeUnit" : "px",
@@ -2265,24 +2265,13 @@
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "30d392b0-81f6-efdf-a2e7-3c5882b26769"
-              }, {
-                "name" : "Enlace a terminal",
-                "icon" : "more_horiz",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "openURL",
-                "openNewBrowserTab" : false,
-                "url" : "http://telemetria.aquafilter.es/admin/terminal.php",
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "1e99cee0-e7bf-2c6a-9d1c-fcffb6d4445c"
               } ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
             "iconColor" : "#1F6BDD",
             "useDashboardTimewindow" : false,
-            "displayTimewindow" : false,
+            "displayTimewindow" : true,
             "titleFont" : {
               "size" : 16,
               "sizeUnit" : "px",
