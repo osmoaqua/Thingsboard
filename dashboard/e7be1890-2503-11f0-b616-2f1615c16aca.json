@@ -19,10 +19,10 @@
               "name" : "",
               "deviceId" : "7fd21860-24d3-11f0-b616-2f1615c16aca",
               "dataKeys" : [ {
-                "name" : "PH",
+                "name" : "ph",
                 "type" : "timeseries",
-                "label" : "Ph",
-                "color" : "#369DF4",
+                "label" : "ph",
+                "color" : "#2196f3",
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
@@ -92,9 +92,7 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.3413755415912063,
-                "units" : "pH",
-                "decimals" : 2
+                "_hash" : 0.45641398387206644
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1288,12 +1286,12 @@
               "name" : "",
               "deviceId" : "7fd21860-24d3-11f0-b616-2f1615c16aca",
               "dataKeys" : [ {
-                "name" : "PH",
+                "name" : "ph",
                 "type" : "timeseries",
-                "label" : "PH",
+                "label" : "ph",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.48998690034223746
+                "_hash" : 0.28139973576125166
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -2348,12 +2346,12 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "c6917780-f104-11ef-a06f-b19fa609076f",
+              "deviceId" : "2e03e800-24d4-11f0-b616-2f1615c16aca",
               "dataKeys" : [ {
                 "name" : "temperatura",
                 "type" : "timeseries",
-                "label" : "Temperatura",
-                "color" : "#F43639",
+                "label" : "temperatura",
+                "color" : "#2196f3",
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
@@ -2423,9 +2421,7 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.637680191773915,
-                "units" : "ºC",
-                "decimals" : 2
+                "_hash" : 0.5428357393132542
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
