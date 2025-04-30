@@ -3127,7 +3127,7 @@
               },
               "tooltipDateColor" : "rgba(0, 0, 0, 0.76)",
               "tooltipDateInterval" : true,
-              "tooltipBackgroundColor" : "rgba(255, 255, 255, 0.76)",
+              "tooltipBackgroundColor" : "rgb(255, 255, 255)",
               "tooltipBackgroundBlur" : 4,
               "animation" : {
                 "animation" : true,
@@ -3142,7 +3142,7 @@
               "background" : {
                 "type" : "color",
                 "imageUrl" : null,
-                "color" : "#FFFFFF",
+                "color" : "#FFFFFF00",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(252, 250, 250, 0.01)",
