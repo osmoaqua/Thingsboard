@@ -1,0 +1,35 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "dispositivos de administrador",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : "Calle Rota 462",
+    "address2" : null,
+    "city" : "Madrid",
+    "country" : "Spain",
+    "customMenuId" : null,
+    "customerId" : null,
+    "email" : "control@aquafilter.es",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "a0a90270-2608-11f0-b616-2f1615c16aca"
+    },
+    "name" : "control",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : "+34682060828",
+    "state" : "Madrid",
+    "title" : "control",
+    "zip" : "45950"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
