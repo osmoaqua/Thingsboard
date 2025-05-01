@@ -2327,7 +2327,7 @@
                 "name" : "temperatura",
                 "type" : "timeseries",
                 "label" : "temperatura",
-                "color" : "#2196f3",
+                "color" : "#E89623",
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
