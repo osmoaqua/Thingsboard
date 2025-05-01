@@ -2,7 +2,7 @@
   "entityType" : "DASHBOARD",
   "entity" : {
     "title" : "Panel_ph_cloro_wifi",
-    "image" : "tb-image;/api/images/tenant/logo_fin-removebg-blanco.png",
+    "image" : "tb-image;/api/images/tenant/panel_ph_cloro_wifi_dashboard_image.png",
     "mobileHide" : true,
     "mobileOrder" : null,
     "configuration" : {
