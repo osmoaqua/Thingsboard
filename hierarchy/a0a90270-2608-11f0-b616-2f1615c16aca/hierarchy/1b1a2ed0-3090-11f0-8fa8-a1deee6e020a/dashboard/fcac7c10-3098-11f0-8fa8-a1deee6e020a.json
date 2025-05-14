@@ -1,0 +1,33 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "Peñafiel",
+    "image" : "tb-image;/api/images/tenant/logo_fin-removebg-blanco.png",
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "name" : "Peñafiel",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "1b1a2ed0-3090-11f0-8fa8-a1deee6e020a"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "fcac7c10-3098-11f0-8fa8-a1deee6e020a"
+    },
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "1b1a2ed0-3090-11f0-8fa8-a1deee6e020a"
+    }
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
